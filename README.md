@@ -2,7 +2,7 @@
 
 <details>
   <summary>About</summary>
-  Sign by Via is an SME that focuses on developing woven bag products. The reason I created this website was that initially, every buyer had to see the products physically, which was very inconvenient for buyers who lived far away. I thought of creating a website for the business that displays woven bags, so buyers no longer have to come to the store to make a purchase.
+  Sign by Via is an UMKM that focuses on developing woven bag products. The reason I created this website was that initially, every buyer had to see the products physically, which was very inconvenient for buyers who lived far away. I thought of creating a website for the business that displays woven bags, so buyers no longer have to come to the store to make a purchase.
 </details>
 
 <details>
