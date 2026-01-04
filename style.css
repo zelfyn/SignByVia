@@ -117,20 +117,36 @@ section .button a {
 
 /* this id about page */
 #about .container {
-    background: #ffffff;
-}
-
-#about article {
-    flex-direction: row;
+    background: rgb(253, 253, 253);
 }
 
 #about article {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+#about p {
+    text-align: justify;
+    font-size: 20px;
+    width: 250px;
 }
 
 #about article img {
-    width: 424px;
-    height: 632px;
+    width: 25%;
+    height: 25%;
     border-radius: 60px;
+}
+
+/* this is product page */
+#product .container {
+    background: rgba(163, 206, 241, 1);
+}
+
+/* this is footer */
+footer {
+    background: rgba(139, 140, 137, 1);
+    height: 50vh;
 }
