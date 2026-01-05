@@ -203,15 +203,16 @@ section .button a {
 
 
 /* this is footer */
-footer {
+footer .container {
     background: rgba(139, 140, 137, 1);
     min-height: 50vh;
     display: flex;
     gap: 50px;
     padding: 50px 30px;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: left;
 }
 
 footer P {
@@ -250,4 +251,11 @@ footer a {
 .foot-button:hover {
     transform: translateY(2px);
     transition: 0.2s ease-in-out;
+}
+
+.copyright {
+    width: 100%;
+    padding: 4px 0;
+    color: #ffffff;
+    background-color: #3d3d3d;
 }
