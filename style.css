@@ -148,5 +148,48 @@ section .button a {
 /* this is footer */
 footer {
     background: rgba(139, 140, 137, 1);
-    height: 50vh;
+    min-height: 50vh;
+    display: flex;
+    gap: 50px;
+    padding: 50px 30px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer P {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.foot-content iframe {
+    margin-top: 10px;
+    width: 250px;
+    height: 200px;  
+    border: 0;
+}
+
+footer a {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.foot-button {
+    max-width: fit-content;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 7px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: rgb(201, 201, 201);
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.foot-button a {
+    color: #000000;   
+}
+
+.foot-button:hover {
+    transform: translateY(2px);
+    transition: 0.2s ease-in-out;
 }
