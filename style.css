@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* This is navigation bar */
@@ -28,10 +28,9 @@ nav {
     margin: auto;
     position: fixed;
     width: 100%;
-    background-color: rgba(10, 17, 40, 0.8);
+    background-color: rgba(51, 68, 67, 0.75);
     backdrop-filter: blur(16px) saturate(120%);
     z-index: 100;
-    font-family: "Gloria Hallelujah", cursive;
 }
 
 nav ul {
@@ -67,7 +66,7 @@ nav ul li a {
     font-size: 13px;
     border-radius: 30px;
     padding: 10px 20px;
-    background-image: linear-gradient(45deg, #0a0dc0 , #5B42FF 50%, #26ccf5 100%);
+    background-image: linear-gradient(90deg, #bfa555,#d3b867,#eace7c);
     display: inline-block; 
     text-decoration: none;
     transition: 0.2s ease-in-out;
@@ -87,14 +86,13 @@ nav ul li a {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    font-family: "Montserrat", sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
     box-sizing: border-box;
 }
 
 section .container{
-    background: radial-gradient(circle,rgba(207, 245, 255, 1) 0%, rgba(247, 250, 255, 1) 2%, rgba(211, 230, 235, 1) 78%, rgba(185, 216, 237, 1) 100%)
+    background: radial-gradient(circle,rgb(241, 234, 206) 0%, rgb(255, 250, 232) 2%, rgb(228, 213, 161) 78%, rgb(204, 188, 117) 100%)
 }
     
 section h1 {
@@ -103,8 +101,8 @@ section h1 {
 }
 
 section h1 span {
-  color: #AB46F2;
-  background-image: linear-gradient(45deg, #0a0dc0 , #5B42FF 50%, #26ccf5 100%);
+  background-image: -webkit-linear-gradient(90deg, #f6d32d,#ffa348,#d1b433);                          
+  background-image: linear-gradient(90deg, #ebc400,#ffa348,#d1b433);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -129,7 +127,8 @@ section .button a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 150px;
+    margin: 30px 0;
 }
 
 #about p {
@@ -139,14 +138,14 @@ section .button a {
 }
 
 #about article img {
-    width: 25%;
-    height: 25%;
+    width: 40vh;
+    height: 60vh;
     border-radius: 60px;
 }
 
 /* this is product page */
 #product .container {
-    background: linear-gradient(180deg, rgb(208, 236, 255) 0%, rgb(84, 113, 124) 100%);
+    background: rgb(250, 234, 177);
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -194,6 +193,9 @@ section .button a {
     transform: scale(1.1) translateY(-4px);
     z-index: 10;
     transition: 0.3s ease-in-out;
+    box-shadow: 11px 18px 23px -9px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 11px 18px 23px -9px rgba(0,0,0,0.61);
+    -moz-box-shadow: 11px 18px 23px -9px rgba(0,0,0,0.61);
 }
 
 .card-product h4 {
@@ -204,7 +206,7 @@ section .button a {
 
 /* this is footer */
 footer .container {
-    background: rgba(139, 140, 137, 1);
+    background: rgb(51, 68, 67);
     min-height: 50vh;
     display: flex;
     gap: 50px;
@@ -212,6 +214,7 @@ footer .container {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
+    color: #ffffff;
     text-align: left;
 }
 
@@ -257,5 +260,5 @@ footer a {
     width: 100%;
     padding: 4px 0;
     color: #ffffff;
-    background-color: #3d3d3d;
+    background-color: rgb(36, 48, 47);
 }
