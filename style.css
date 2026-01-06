@@ -6,6 +6,7 @@
 
 :root {
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: smooth;
 }
 
 body {
@@ -92,7 +93,7 @@ nav ul li a {
 }
 
 section .container{
-    background: radial-gradient(circle,rgb(241, 234, 206) 0%, rgb(255, 250, 232) 2%, rgb(228, 213, 161) 78%, rgb(204, 188, 117) 100%)
+    background: radial-gradient(circle, rgb(255, 250, 232) 2%, rgb(228, 213, 161) 78%, rgb(204, 188, 117) 100%)
 }
     
 section h1 {
@@ -122,7 +123,7 @@ section .button a {
     font-size: 40px;
 }
 
-#about article {
+#about .about-company {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -131,16 +132,35 @@ section .button a {
     margin: 30px 0;
 }
 
-#about p {
+.about-company p {
     text-align: justify;
     font-size: 20px;
     width: 250px;
 }
 
-#about article img {
+.about-company img {
     width: 40vh;
     height: 60vh;
     border-radius: 60px;
+}
+
+article {
+    color: #000000;
+}
+
+.tutorial-box {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(250, 234, 177);
+    margin: 10px;
+    width: 75vh;
+    padding: 20px 20px;
+    border-radius: 25px;
+}
+
+.tutorial-box img {
+    width: 25%;
+    height: 25%;
 }
 
 /* this is product page */
@@ -190,12 +210,12 @@ section .button a {
 
 .card-product:hover {
     background-color: rgba(255, 255, 255, 0.75);
-    transform: scale(1.1) translateY(-4px);
+    transform: scale(1.09) translateY(-4px);
     z-index: 10;
     transition: 0.3s ease-in-out;
-    box-shadow: 11px 18px 23px -9px rgba(0,0,0,0.61);
-    -webkit-box-shadow: 11px 18px 23px -9px rgba(0,0,0,0.61);
-    -moz-box-shadow: 11px 18px 23px -9px rgba(0,0,0,0.61);
+    box-shadow: 11px 18px 10px -9px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 11px 18px 10px -9px rgba(0,0,0,0.61);
+    -moz-box-shadow: 11px 18px 10px -9px rgba(0,0,0,0.61);
 }
 
 .card-product h4 {
