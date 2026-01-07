@@ -6,7 +6,6 @@
 
 :root {
     scroll-behavior: smooth;
-    -webkit-overflow-scrolling: smooth;
 }
 
 body {
@@ -87,8 +86,7 @@ nav ul li a {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 50px 0;
     box-sizing: border-box;
 }
 
@@ -148,9 +146,25 @@ article {
     color: #000000;
 }
 
+.tutorial-text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.tutorial-text h2 {
+    background-color: #ffffff;
+    padding: 13px 20px;
+    border-radius: 50%;
+    -webkit-box-shadow: inset 4px 4px 15px -5px #000000, -31px -28px 18px -10px rgba(0,0,0,0); 
+    box-shadow: inset 4px 4px 11px -5px #000000, -31px -28px 18px -10px rgba(0,0,0,0);
+}
+
 .tutorial-box {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     background-color:rgb(250, 234, 177);
     margin: 10px;
     width: 75vh;
